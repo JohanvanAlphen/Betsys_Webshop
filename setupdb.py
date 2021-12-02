@@ -112,18 +112,12 @@ def create_test_data():
     katoen = Tags.create(
         name="katoen"
     )
-    # chino = Tags.create(
-    #     name="chino"
-    # )
     broek = Tags.create(
         name="broek"
     )
     sweater = Tags.create(
         name="sweater"
     )
-    # hoodie = Tags.create(
-    #     name="hoodie"
-    # )
     zakelijk = Tags.create(
         name="zakelijk"
     )
@@ -136,11 +130,6 @@ def create_test_data():
     prints = Tags.create(
         name="prints"
     )
-    # tags = ["jeans", "katoen", "chino", "broek", "sweater",
-    #         "hoodie", "zakelijk", "wol", "casual", "print"]
-
-    # for name in tags:
-    #     Tags.create(name=name)
 
     # ProductTags spijkerbroek:
     ProductTag.create(
@@ -165,16 +154,8 @@ def create_test_data():
         product=hoodie,
         tag=sweater
     )
-    # ProductTag.create(
-    #     product=hoodie,
-    #     tag=hoodie
-    # )
 
     # Product tags chino:
-    # ProductTag.create(
-    #     product=chino,
-    #     tag=chino
-    # )
     ProductTag.create(
         product=chino,
         tag=broek
